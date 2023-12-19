@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #1F2937;
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-top: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    flex: 0 1 350px;
+    justify-content: space-between;
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-top: 125px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.left {
+    background-color: #1F2937;
+    height: 250px;
+    width: 400px;
+}
+
+.headline {
+    display: flex;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtext {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.right {
+    background-color: gray;
+    color: #F9FAF8;
+    display: flex;
+    flex: 0 1 500px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpButton {
+    background-color: #3b83f6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 75px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.signUpButton:active {
+    background-color: #1060D0;
+}
+
+.random {
+    text-align: center;
+}
+
+.randomHeadline {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cubes {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 225px;
+    padding-right: 225px;
+}
+
+.cube {
+    max-width: 150px;
+}
+
+.square {
+    height: 140px;
+    width: 140px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3b83f6;
+    border-radius: 15px;
+}
+
+
+.quote {
+    margin-top: 100px;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 350px;
+    padding-right: 375px;
+    margin-bottom: 100px;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteThor {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 50px;
+    text-align: end;
+}
+
+
+.action {
+    background-color: #3b83f6;
+    color: #F9FAF8;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px 50px 150px;
+}
+
+.actionHeadline {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.actionButton {
+    background-color: #3b83f6;
+    color: #F9FAF8;
+    border: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.actionButton:hover {
+    background-color: #1060D0;
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
