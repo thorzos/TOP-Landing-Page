@@ -1,3 +1,3 @@
 # TOP-Landing-Page
 
-Practicing CSS
+Practicing CSS with TheOdinProject!
